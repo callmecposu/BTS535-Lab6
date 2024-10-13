@@ -50,6 +50,36 @@ To have a fully functional mobile application by the project's completion, allow
 | REQ05   | Event discovery functionality            | DEL05  | Event search and filters      | Dev Team     | Pending |
 | REQ06   | Real-time chat for events                | DEL06  | Messaging platform            | Dev Team     | Pending |
 | REQ07   | User profile management                  | DEL07  | User profile system           | Dev Team     | Pending |
+## 5. Preliminary Budget  
+### 5.1 Personnel Cost Per Sprint  
+*To be inserted in later workshops.*  
+
+### 5.2 Total Personnel Cost  
+*To be inserted in later workshops.*
+
+### 5.3 Fixed Costs  
+
+| Item       | Quantity | Cost/Item   | Total Cost          |
+|------------|----------|-------------|---------------------|
+| Hosting    | 1        | $5/month    | $60/year            |
+| Domain     | 1        | $15/year    | $15/year            |
+| Push notifications service | 1 | $20/month | $240/year |
+
+### 5.4 Contingency  
+*To be calculated.*
+
+### 5.5 Total Estimated Cost  
+*To be inserted in later workshops.*
+## 6. Organization/Stakeholders  
+
+| Project Role        | Responsibilities                          | Assigned to   |
+|---------------------|------------------------------------------|---------------|
+| Project Manager     | Overall project oversight and decisions   | Jiseok Shim   |
+| Lead Developer      | Mobile app development                     | Team Member 1 |
+| UX/UI Designer      | User experience and interface design       | Anurag Das |
+| Backend Developer   | API and server-side development            | Team Member 3 |
+| QA Specialist       | Testing and bug fixes                      | Team Member 4 |
+
 
 ## 7. Risks, Assumptions, Constraints, and Quality Assurance
 
