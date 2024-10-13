@@ -50,6 +50,21 @@ To have a fully functional mobile application by the project's completion, allow
 | REQ05   | Event discovery functionality            | DEL05  | Event search and filters      | Dev Team     | Pending |
 | REQ06   | Real-time chat for events                | DEL06  | Messaging platform            | Dev Team     | Pending |
 | REQ07   | User profile management                  | DEL07  | User profile system           | Dev Team     | Pending |
+
+
+## 4. Deliverables  
+
+1. Mobile app up and running from server
+2. Event creation and management feature
+3. User authentication and profile management
+4. Event discovery tool with filters and search features
+5. Notifications and messaging system
+6. Payment integration for paid events
+7. Event feedback collection and analytics
+
+### 4.1 Gantt Chart  
+[Gantt Chart](GanttChart.png)
+
 ## 5. Preliminary Budget  
 ### 5.1 Personnel Cost Per Sprint  
 *To be inserted in later workshops.*  
