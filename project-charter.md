@@ -50,3 +50,44 @@ To have a fully functional mobile application by the project's completion, allow
 | REQ05   | Event discovery functionality            | DEL05  | Event search and filters      | Dev Team     | Pending |
 | REQ06   | Real-time chat for events                | DEL06  | Messaging platform            | Dev Team     | Pending |
 | REQ07   | User profile management                  | DEL07  | User profile system           | Dev Team     | Pending |
+
+## 7. Risks, Assumptions, Constraints, and Quality Assurance
+
+### 7.1 Risks  
+1. **Delays in Feature Integration**: Challenges in integrating key features such as geolocation services or payment processing may lead to delays in the project timeline.
+2. **Limited User Adoption**: The application may encounter difficulties in attracting a sufficient number of users if it fails to generate interest in a wide range of events early on.
+3. **Complex User Interface for Organizers**: Event organizers may face difficulties in managing their events effectively if the user interface is not designed to be intuitive and easy to navigate.
+4. **Data Security Concerns**: Any potential breaches or mishandling of sensitive user data, including payment information, could result in significant reputational damage and legal repercussions.
+
+### 7.2 Risk Evaluation Chart
+
+| **Risk**                                | **Impact**        | **Likelihood** | **Impact Level** | **Mitigation Strategy**                                                                         |
+|-----------------------------------------|-------------------|----------------|------------------|-------------------------------------------------------------------------------------------------|
+| Delays in Feature Integration           | High              | Medium         | Critical         | Break down integration tasks into smaller, manageable units and implement early-stage testing.   |
+| Limited User Adoption                   | Medium            | High           | Major            | Create a robust marketing strategy and ensure early user engagement with incentives and promotions. |
+| Complex User Interface for Organizers   | Medium            | Medium         | Moderate         | Conduct early usability testing with event organizers to ensure the interface meets their needs. |
+| Data Security Breaches                  | High              | Low            | Critical         | Implement strong encryption standards and perform regular security audits.                       |
+| Budget Constraints on API Services      | Medium            | Medium         | Major            | Prioritize essential API features and explore cost-effective alternatives for non-essential services. |
+| Third-Party Service Downtime            | Medium            | Low            | Moderate         | Implement backup services and set up alert systems to address downtime proactively.              |
+| Non-Compliance with Data Regulations    | High              | Low            | Critical         | Work with legal experts to ensure the app complies with GDPR, CCPA, and other relevant regulations. |
+| Performance Issues at Peak Times        | High              | Medium         | Critical         | Conduct performance testing early and optimize the app’s architecture for scalability.            |
+
+### 7.3 Assumptions  
+1. The development team will possess the necessary expertise to successfully implement mobile development and integrate essential third-party services, such as Google Maps API, Stripe, and WebSockets.
+2. Users will have access to smartphones with stable internet connections, which is critical for real-time event discovery and participation.
+3. External services, including hosting, notifications, and APIs, will operate reliably with minimal downtime or performance issues.
+4. Event organizers and participants will be willing to adopt the platform and engage with its functionalities, provided it delivers a user-friendly experience.
+
+### 7.4 Constraints  
+1. The application must adhere to local and international data privacy regulations, such as GDPR and CCPA, to ensure the lawful handling of user data.
+2. The application must provide a seamless experience across both Android and iOS platforms to ensure consistency for all users.
+3. The system must be capable of supporting up to 10,000 concurrent users during peak usage periods, ensuring stable performance under high demand.
+4. Budget limitations may restrict access to certain premium services, such as advanced features within the Google Maps API or Stripe’s full range of payment processing options.
+
+### 7.5 Quality Assurance  
+1. **Testing**: Unit and integration testing will ensure that individual components and their interactions function as expected. End-to-end and performance testing will verify the entire user flow and system scalability for up to 10,000 concurrent users.
+2. **Security**: Security testing will focus on data protection and compliance with privacy regulations, especially concerning user profiles and payment information.
+3. **Bug Tracking & Code Reviews**: GitHub Issues will be used for bug tracking, with regular code reviews to maintain high-quality standards and functionality.
+4. **CI/CD Pipeline**: A CI/CD pipeline will automate testing and deployment to ensure quick and reliable updates.
+5. **User Feedback & Documentation**: User acceptance testing (UAT) will gather feedback to improve the app, while comprehensive documentation will guide both developers and end users.
+
